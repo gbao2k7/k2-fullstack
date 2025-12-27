@@ -6,7 +6,47 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome to Day 9</h1>
-    <p>This is the content for Day 9.</p>
+    <h1> HTML FORM </h1>
+    <form action="/submit" method="get">
+        <label for="fullname"> Ho va ten:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+    
+        <label for="email">Email cua ban:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="6" required>
+        <br><br>
+    
+        <label for="age">Tuoi cua ban:</label>
+        <input type="number" id="age" name="age" min="1" max="120" required>
+        <br><br>
+    
+        <label for="avatar">Upload avatar:</label>
+        <input type="file" id="avatar" name="avatar" accept="image/*">
+        <br><br>
+    
+        <label for="gender"> Nguon: </label>
+        <input type="checkbox" name="source" value="facebook">
+        <label for="male">facebook</label>
+        <input type="checkbox" id="female" name="source" value="gmail">
+        <label for="female">gmail</label>
+        <input type="checkbox" id="other" name="source" value="X">
+        <label for="other">X</label>
+        <br><br>
+    
+        <label for="gender">Gioi tinh:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Nu</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Khac</label>
+        <br><br>
+    
+        <label for="submit">Submit:</label>
+        <input type="submit" value="Submit">
 </body>
 </html>
