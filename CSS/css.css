@@ -1,0 +1,42 @@
+p{
+    color: red;
+    font-size: 20px;
+}
+
+h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: violet;
+}
+#title{
+    text-align: center;
+    color: greenyellow;
+    background-color: brown;
+}
+.title{
+    text-align: center;
+    color: yellow;
+    background-color: black;
+}
+h3{
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box .title{
+    font-size: 25px;
+    color: purple;
+    background-color: pink;
+}
+.box .wrapper{
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+.menu > li > a{
+    text-decoration: none;
+    color: red;
+}
+.menu ul a {
+    text-decoration: underline;
+    color: blue;
+}
