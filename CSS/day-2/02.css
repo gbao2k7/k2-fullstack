@@ -7,3 +7,12 @@ h1.title {
 h2.title {
     color: green;
 }
+ul~p {
+    color: red;
+    text-align: center;
+}
+
+ul~div {
+    color: blue;
+    text-align: center;
+}
