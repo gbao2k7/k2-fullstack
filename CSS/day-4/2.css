@@ -1,0 +1,21 @@
+ul li a[target] {
+    color: red;
+}
+
+ul li a[href="#3"] {
+    color: green;
+}
+
+ul li a[href^="#"] {
+    font-weight: bold;
+    color: black;
+}
+
+.row [class^="col-"] {
+    color: red;
+}
+
+.box * {
+    color: blue;
+    border: 1px solid black;
+}
